@@ -1,0 +1,8 @@
+<div class="my-4 chartjs-render-monitor table-bordered">
+  <canvas scatter id="myChart" width="565" height="238" style="display: block;" 
+  baseChart [chartType]="'line'" 
+  [datasets]="datasets_lines"
+  [options]="options" 
+  [legend]="true" (chartClick)="onChartClick($event)">
+  </canvas>
+</div>
