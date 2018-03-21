@@ -81,7 +81,6 @@ export class LineChartComponent implements OnInit {
     console.log(e);
   }
 
-  //getting Stocks
   private getStats() {
     this.service.getIndices()
       .subscribe(
